@@ -1,6 +1,6 @@
 NAME=keycloak-gatekeeper
 AUTHOR=keycloak
-REGISTRY=docker.io
+REGISTRY=registry.access.redhat.com
 GOVERSION ?= 1.10.2
 ROOT_DIR=${PWD}
 HARDWARE=$(shell uname -m)

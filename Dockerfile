@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM rhel7-minimal
 
 LABEL Name=keycloak-gatekeeper \
       Release=https://github.com/keycloak/keycloak-gatekeeper \
